@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.nedan.spookybuy.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinScoreboard"
+  ],
+  "client": [
+    "HudMixin",
+    "MixinInGameHud",
+    "MixinScreenshotUtils"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
